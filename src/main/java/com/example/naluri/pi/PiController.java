@@ -3,7 +3,7 @@ package com.example.naluri.pi;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://nalurispace.netlify.app/")
 @RestController
 @RequestMapping(path = "api/pi")
 public class PiController {
